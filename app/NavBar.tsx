@@ -21,7 +21,7 @@ const NavBar = () => {
   ];
 
   return (
-    <nav className="flex items-center justify-between border-0 shadow-sm mt-6 mx-4 rounded-full px-6 h-20 bg-[#D9B382]">
+    <nav className="flex items-center justify-between border-0 shadow-sm mt-5 mx-4 rounded-full px-6 h-16 bg-[#D9B382]">
       {/* Left Side - Logo */}
       <div>
         <Link href="/">
@@ -58,7 +58,7 @@ const NavBar = () => {
 
       {/* Mobile and Tablet Links (Collapsible Menu) */}
       {isMenuOpen && (
-        <div className="absolute top-20 left-0 w-full shadow-md md:hidden">
+        <div className="absolute top-16 left-0 w-full shadow-md md:hidden">
           <div className="mx-5 bg-[#D9B382] overflow-hidden">
             <ul className="flex flex-col items-center space-y-4 py-4">
               {links.map((link) => (
